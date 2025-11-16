@@ -1,0 +1,46 @@
+{
+  "games": [
+    {
+      "id": "demo-world",
+      "name": "RolBox Demo",
+      "mode": "Survival",
+      "host": "Global",
+      "worldId": "demo-world"
+    },
+    {
+      "id": "arena-1",
+      "name": "Arena PvP",
+      "mode": "PVP",
+      "host": "Szalis",
+      "worldId": "arena-1"
+    }
+  ],
+  "players": [
+    {
+      "email": "test@example.com",
+      "nick": "Szalis",
+      "active": true,
+      "wallet": 230,
+      "passHash": "h_abcd1234",
+      "createdAt": "2025-11-16T10:00:00.000Z",
+      "lastLogin": "2025-11-16T11:00:00.000Z"
+    }
+  ],
+  "worlds": [
+    {
+      "id": "demo-world",
+      "name": "Demo World",
+      "blocks": [
+        { "x": 0, "y": 1, "z": 0, "size": { "x": 2, "y": 2, "z": 2 }, "color": 16711680 },
+        { "x": 4, "y": 1, "z": -3, "size": { "x": 1, "y": 3, "z": 1 }, "color": 65280 }
+      ]
+    },
+    {
+      "id": "arena-1",
+      "name": "Arena PvP World",
+      "blocks": [
+        { "x": 0, "y": 1, "z": 0, "size": { "x": 5, "y": 1, "z": 5 }, "color": 11184810 }
+      ]
+    }
+  ]
+}
