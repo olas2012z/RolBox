@@ -1,4 +1,7 @@
-{
+const GLOBAL_DATA_URL = "data.json";
+
+// Wbudowane domyślne dane, gdy nie ma data.json albo fetch się wywali
+const DEFAULT_DATA = {
   "games": [
     {
       "id": "demo-world",
@@ -9,14 +12,14 @@
     },
     {
       "id": "Szaliski",
-      "name": "Rolbox Test",
+      "name": "RolBox Test",
       "mode": "Survival",
       "host": "Global",
       "worldId": "Szaliski"
     },
     {
-      "id": "Test1,
-      "name": "Test Fizyk",
+      "id": "Test1",
+      "name": "Test Fizyki",
       "mode": "Survival",
       "host": "Global",
       "worldId": "Test1"
@@ -51,63 +54,64 @@
     },
     {
       "id": "Szaliski",
-      "name": "Rolbox Test",
+      "name": "RolBox Test",
       "blocks": [
         { "x": 0, "y": 1, "z": 0, "size": { "x": 2, "y": 2, "z": 2 }, "color": 16711680 },
         { "x": 4, "y": 1, "z": -3, "size": { "x": 1, "y": 3, "z": 1 }, "color": 65280 },
         { "x": 0, "y": 4, "z": 0, "size": { "x": 2, "y": 2, "z": 2 }, "color": 16711680 }
       ]
     },
-      {
-  "id": "Test1",
-  "name": "Fizyka",
-  "blocks": [
     {
-      "x":0,
-      "y":1,
-      "z":0,
-      "size":{"x":2,"y":2,"z":2},
-      "color":16711680,
-      "anchored": true,
-      "collide": true,
-      "shadows": true
-    },
-    {
-      "x":4,
-      "y":1,
-      "z":-3,
-      "size":{"x":1,"y":7,"z":1},
-      "color":65280
-      "anchored": false,
-      "collide": true,
-      "shadows": true
-    },
-    {
-      "x":0,
-      "y":2,
-      "z":3,
-      "size":{"x":2,"y":2,"z":6},
-      "color":16711680
-      "x":4,
-      "y":1,
-      "z":-3,
-      "size":{"x":1,"y":3,"z":1},
-      "color":65280
-      "anchored": true,
-      "collide": true,
-      "shadows": true
-    }
-  ]
-}
-
+      "id": "Test1",
+      "name": "Fizyka",
+      "blocks": [
+        {
+          "x": 0,
+          "y": 1,
+          "z": 0,
+          "size": { "x": 2, "y": 2, "z": 2 },
+          "color": 16711680,
+          "anchored": true,
+          "collide": true,
+          "shadows": true
+        },
+        {
+          "x": 4,
+          "y": 1,
+          "z": -3,
+          "size": { "x": 1, "y": 7, "z": 1 },
+          "color": 65280,
+          "anchored": false,
+          "collide": true,
+          "shadows": true
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "z": 3,
+          "size": { "x": 2, "y": 2, "z": 6 },
+          "color": 16711680,
+          "anchored": true,
+          "collide": true,
+          "shadows": true
+        }
+      ]
     },
     {
       "id": "arena-1",
       "name": "Arena PvP World",
       "blocks": [
-        { "x": 0, "y": 1, "z": 0, "size": { "x": 5, "y": 1, "z": 5 }, "color": 11184810 }
+        {
+          "x": 0,
+          "y": 1,
+          "z": 0,
+          "size": { "x": 5, "y": 1, "z": 5 },
+          "color": 11184810,
+          "anchored": true,
+          "collide": true,
+          "shadows": true
+        }
       ]
     }
   ]
-}
-
+};
