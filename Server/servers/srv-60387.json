@@ -1,0 +1,12 @@
+{
+  "server_id": "srv-60387",
+  "game_id": "RolboxTEST",
+  "owner": "Szalis",
+  "peer_id": "peer-Szalis-srv-60387",
+  "players": [
+    "Szalis"
+  ],
+  "max_players": 8,
+  "status": "online",
+  "last_ping": 1769592283
+}
