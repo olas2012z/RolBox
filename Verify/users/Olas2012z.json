@@ -1,0 +1,14 @@
+{
+  "nick": "Olas2012z",
+  "password_hash": "sha256$6130f6f013cf888ce0d56cf5b1c88a1ccc2151e8ac00ad349b6bb938351b30b0",
+  "created": "2026-01-28T09:29:22.477Z",
+  "last_login": "2026-01-28T09:29:22.477Z",
+  "banned": false,
+  "friends": [],
+  "avatar": {
+    "head": "#f2d2a9",
+    "skin": "#f2d2a9",
+    "shirt": "#1f4d2b",
+    "pants": "#6b3e1e"
+  }
+}
