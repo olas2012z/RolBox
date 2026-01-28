@@ -4,7 +4,9 @@
   "created": "2026-01-28T09:29:22.477Z",
   "last_login": "2026-01-28T09:29:22.477Z",
   "banned": false,
-  "friends": [],
+  "friends": [
+    "Szalis"
+  ],
   "avatar": {
     "head": "#f2d2a9",
     "skin": "#f2d2a9",
