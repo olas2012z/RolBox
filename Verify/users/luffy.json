@@ -1,0 +1,14 @@
+{
+  "nick": "luffy",
+  "password_hash": "sha256$6659e3ac98c7039b581e504af3d732f792c352e5c1bbbb46b27c4ab7f77c7619",
+  "created": "2026-02-03T15:09:45.841Z",
+  "last_login": "2026-02-03T15:09:45.841Z",
+  "banned": false,
+  "friends": [],
+  "avatar": {
+    "head": "#f2d2a9",
+    "skin": "#f2d2a9",
+    "shirt": "#1f4d2b",
+    "pants": "#6b3e1e"
+  }
+}
