@@ -1,11 +1,10 @@
 {
   "active_servers": [
-    "srv-55364",
     "srv-21679",
     "srv-59457",
     "srv-19681",
     "srv-93143",
     "srv-53038"
   ],
-  "count": 6
+  "count": 5
 }
