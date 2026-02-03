@@ -4,9 +4,10 @@
   "owner": "Olas2012z",
   "peer_id": "peer-Olas2012z-srv-59457",
   "players": [
-    "Olas2012z"
+    "Olas2012z",
+    "Szalis"
   ],
   "max_players": 6,
   "status": "online",
-  "last_ping": 1769595179
+  "last_ping": 1770131392
 }
