@@ -1,0 +1,12 @@
+{
+  "server_id": "srv-43398",
+  "game_id": "SzalTestomate",
+  "owner": "Szalis",
+  "peer_id": "peer-Szalis-srv-43398",
+  "players": [
+    "Szalis"
+  ],
+  "max_players": 6,
+  "status": "online",
+  "last_ping": 1770131398
+}
