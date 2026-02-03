@@ -1,0 +1,12 @@
+{
+  "server_id": "srv-28719",
+  "game_id": "20",
+  "owner": "luffy",
+  "peer_id": "peer-luffy-srv-28719",
+  "players": [
+    "luffy"
+  ],
+  "max_players": 6,
+  "status": "online",
+  "last_ping": 1770131916
+}
