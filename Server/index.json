@@ -1,4 +1,6 @@
 {
-  "active_servers": [],
-  "count": 0
+  "active_servers": [
+    "srv-81264"
+  ],
+  "count": 1
 }
